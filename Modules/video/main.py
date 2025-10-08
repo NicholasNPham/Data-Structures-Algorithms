@@ -1,8 +1,8 @@
-import math
+from math import pi, sin, sqrt
 
-number = 25
-result = math.sqrt(number)
-# print(result) # print 5.0
+value = sin(pi/2)
+print(value) # print 1.0
 
-# print(math.pi) # 3.141592653589793
+num = sqrt(64)
+print(num) # prints 8.0
 
