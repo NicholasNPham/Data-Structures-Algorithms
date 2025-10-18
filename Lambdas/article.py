@@ -109,3 +109,24 @@ one
 two
 three
 """
+
+# Learning unittest
+
+"""
+import unittest
+
+addtwo = lambda x: x + 2
+class LambdaTest(unittest.TestCase):
+    def test_add_two(self):
+        self.assertEqual(add_two(2), 4)
+
+    def test_add_two_point_two(self):
+        self.assertEqual(add_two(2.2), 4.2)
+
+    def test_add_three(self):
+        self.assertEqual(add_two(3), 5)
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
+"""
+
